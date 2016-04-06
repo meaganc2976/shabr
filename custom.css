@@ -1,5 +1,17 @@
+
 .carousel-inner {
-   
+    
      height:800px
+}
+.custom > li > a:hover {
+
     
 }
+#mycarousel{
+     margin:auto;
+   
+}
+
+/*#righthand {*/
+/*vertical-align: middle;*/
+/*}*/
