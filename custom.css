@@ -1,21 +1,23 @@
-
-.carousel-inner {
-    
-     height:800px
+#carouselimg {
+width:100%;
+background-size:cover;
 }
-.custom > li > a:hover {
+
+/*.custom > li > a:hover {*/
 
     
-}
+/*}*/
 #mycarousel{
      margin:auto;
    
 }
 
-/*#righthand {*/
-/*vertical-align: middle;*/
-/*}*/
-
-li {
-     background
+#footer {
+      clear:both;
+      font-size:16px;
 }
+
+.text-muted {
+     font-size:13px;
+}
+
