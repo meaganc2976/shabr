@@ -2,8 +2,10 @@
     height: 800px
 }
 
-.custom > li > a:hover {
-    /*background: url(img/hot-air-baloon-clipart.png);*/
+.nav-pills {
+    background-image: url('img/hot-air-baloon-clipart.png');
+    /*width:20px;*/
+    /*height:20px;*/
     /*color:black;*/
 }
 
@@ -11,6 +13,4 @@
     margin: auto;
 }
 
-
-/*#righthand {*/
 
