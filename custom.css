@@ -1,17 +1,21 @@
-
 .carousel-inner {
-    
-     height:800px
+    height: 800px
 }
-.custom > li > a:hover {
 
-    
+.custom > li > a:hover {
+    /*background: url(img/hot-air-baloon-clipart.png);*/
+    /*color:black;*/
 }
-#mycarousel{
-     margin:auto;
-   
+
+#mycarousel {
+    margin: auto;
 }
+
 
 /*#righthand {*/
+
+
 /*vertical-align: middle;*/
+
+
 /*}*/
