@@ -27,25 +27,38 @@ background-size:cover;
 }
 
 
+/*.nav-pills {*/
+/*    background-image: url('img/hot-air-baloon-clipart.png');*/
+    /*width:20px;*/
+    /*height:20px;*/
+    /*color:black;*/
+/*}*/
 
 
 #mycarousel {
     margin: auto;
 }
 
+
+
 body {
-  filter: gray;
-    background-image: url(img/cloud.jpg);
+    background: linear-gradient(to right, rgba(240,255,255,.9), rgba(255,255,255,.5)), url("img/cloud.jpg");
+    background-size:cover;
 }
 
-
-.tinted-image {
-  background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)
-    ),
-    /* bottom, image */
-    url(image.jpg);
+#contact {
+    text-align:center;
 }
+
+/*.glyphicon-chevron-right {*/
+/*    position:absolute;*/
+/*    margin-top:190px;*/
+/*    font-size: 35px;*/
+   
+/*}*/
+/*.glyphicon-chevron-left{*/
+/*    position:absolute;*/
+/*    margin-top:190px;*/
+/*     font-size: 35px;*/
+    
+/*}*/
