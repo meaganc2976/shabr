@@ -1,9 +1,13 @@
 
 #carouselimg {
 width:100%;
+
 background-size:cover;
 }
 
+#mycarousel {
+     height:500px;
+}
 /*.custom > li > a:hover {*/
 
     
@@ -22,9 +26,9 @@ background-size:cover;
      font-size:13px;
 }
 
-.carousel-inner {
-    height: 800px
-}
+
+
+
 
 /*.classCustom .active a,*/
 /*.classCustom .active a:hover {*/
@@ -33,9 +37,31 @@ background-size:cover;
 /*}*/
 
 
+
 #mycarousel {
     margin: auto;
 }
 
 
 
+body {
+    background: linear-gradient(to right, rgba(240,255,255,.9), rgba(255,255,255,.5)), url("img/cloud.jpg");
+    background-size:cover;
+}
+
+#contact {
+    text-align:center;
+}
+
+/*.glyphicon-chevron-right {*/
+/*    position:absolute;*/
+/*    margin-top:190px;*/
+/*    font-size: 35px;*/
+   
+/*}*/
+/*.glyphicon-chevron-left{*/
+/*    position:absolute;*/
+/*    margin-top:190px;*/
+/*     font-size: 35px;*/
+    
+/*}*/
