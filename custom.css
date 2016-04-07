@@ -26,12 +26,11 @@ background-size:cover;
     height: 800px
 }
 
-.nav-pills {
-    background-image: url('img/hot-air-baloon-clipart.png');
-    /*width:20px;*/
-    /*height:20px;*/
-    /*color:black;*/
-}
+/*.classCustom .active a,*/
+/*.classCustom .active a:hover {*/
+/*    background: url('img/hot-air-balloon-clipart.png');*/
+/*    background-color:white;*/
+/*}*/
 
 
 #mycarousel {
