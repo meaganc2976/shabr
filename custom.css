@@ -1,9 +1,13 @@
 
 #carouselimg {
 width:100%;
+
 background-size:cover;
 }
 
+#mycarousel {
+     height:500px;
+}
 /*.custom > li > a:hover {*/
 
     
@@ -22,9 +26,6 @@ background-size:cover;
      font-size:13px;
 }
 
-.carousel-inner {
-    height: 800px
-}
 
 
 
@@ -32,5 +33,19 @@ background-size:cover;
     margin: auto;
 }
 
+body {
+  filter: gray;
+    background-image: url(img/cloud.jpg);
+}
 
 
+.tinted-image {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(image.jpg);
+}
