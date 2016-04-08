@@ -8,10 +8,7 @@ background-size:cover;
 #mycarousel {
      height:500px;
 }
-/*.custom > li > a:hover {*/
 
-    
-/*}*/
 #mycarousel{
      margin:auto;
    
@@ -25,8 +22,16 @@ background-size:cover;
 .text-muted {
      font-size:13px;
 }
+.nav-pills {
+    background-color:rgb(245,245,245);
+}
 
 
+.carousel-caption {
+  z-index: 10;
+  font-size:40px;
+  text-shadow: 2px 2px black;
+}
 
 
 
@@ -35,6 +40,7 @@ background-size:cover;
 /*    background: url('img/hot-air-balloon-clipart.png');*/
 /*    background-color:white;*/
 /*}*/
+
 
 
 
@@ -53,15 +59,12 @@ body {
     text-align:center;
 }
 
-/*.glyphicon-chevron-right {*/
-/*    position:absolute;*/
-/*    margin-top:190px;*/
-/*    font-size: 35px;*/
-   
-/*}*/
-/*.glyphicon-chevron-left{*/
-/*    position:absolute;*/
-/*    margin-top:190px;*/
-/*     font-size: 35px;*/
-    
-/*}*/
+
+
+ 
+    @media only screen and (min-width: 992px) {
+      .carousel-caption { 
+     margin-bottom:700px;
+ 
+ }
+    }
