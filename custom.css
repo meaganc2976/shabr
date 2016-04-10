@@ -28,7 +28,7 @@ background-size:cover;
 
 
 .carousel-caption {
-  z-index: 10;
+
   font-size:40px;
   text-shadow: 2px 2px black;
 }
@@ -45,7 +45,11 @@ background-size:cover;
 
 
 #mycarousel {
-    margin: auto;
+  
+  
+    text-align: center;
+      vertical-align: middle;
+      display: table-cell;
 }
 
 
@@ -61,10 +65,92 @@ body {
 
 
 
- 
+
+
+    @media only screen and (min-width: 200px) {
+
+      h2 {
+        
+     font-size:20px;
+     
+ }
+  h1 {
+      font-size:27px;
+      
+  }
+    }
+
+
+
+
+
+
+
+    @media only screen and (min-width: 570px) {
+      .carousel-caption { 
+       margin-bottom: 100px;
+      }
+      h2 {
+        
+     font-size:30px;
+     
+ }
+  h1 {
+      font-size:40px;
+      
+  }
+    }
+
+
+
+    @media only screen and (min-width: 768px) {
+      .carousel-caption { 
+       margin-bottom: 170px;
+      }
+      h2 {
+        
+     font-size:40px;
+     
+ }
+  h1 {
+      font-size:60px;
+      
+  }
+    }
+
+
+
     @media only screen and (min-width: 992px) {
       .carousel-caption { 
-     margin-bottom:700px;
- 
+       margin-bottom: 200px;
+      }
+      h2 {
+        
+     font-size:55px;
+     
  }
+  h1 {
+      font-size:80px;
+      
+  }
     }
+
+
+    @media only screen and (min-width: 1193px) {
+      .carousel-caption { 
+       margin-bottom: 550px;
+      }
+      h2 {
+        
+     font-size:55px;
+     
+ }
+  h1 {
+      font-size:85px;
+      
+  }
+    }
+
+
+
+
