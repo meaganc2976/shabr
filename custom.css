@@ -136,6 +136,7 @@ body {
     }
 
 
+
     @media only screen and (min-width: 1193px) {
       .carousel-caption { 
        margin-bottom: 550px;
@@ -154,3 +155,26 @@ body {
 
 
 
+
+.testiCont {
+    background-color:lightblue;
+    box-shadow:2px 2px #888888;
+     border-radius: 15px/50px;;
+    margin-bottom:20px;
+    margin-right: 100px;
+    padding: 20px 30px 20px 30px;
+   
+}
+
+#info {
+      border-radius: 15px/50px;
+    font-family: 'Righteous', cursive;
+    font-size:20px;
+}
+
+.nav-pills {
+    background-color: black;
+}
+a {
+    color:white;
+}
