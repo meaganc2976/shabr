@@ -1,184 +1,145 @@
-
 #carouselimg {
-width:100%;
-
-background-size:cover;
+    width: 100%;
+    background-size: cover;
 }
 
 #mycarousel {
-     height:500px;
+    height: 500px;
 }
 
-#mycarousel{
-     margin:auto;
-   
+#mycarousel {
+    margin: auto;
 }
 
 #footer {
-      clear:both;
-      font-size:16px;
+    clear: both;
+    font-size: 16px;
 }
 
 .text-muted {
-     font-size:13px;
-}
-.nav-pills {
-    background-color:rgb(245,245,245);
+    font-size: 13px;
 }
 
+.nav-pills {
+    background-color: rgb(245, 245, 245);
+}
 
 .carousel-caption {
-
-  font-size:40px;
-  text-shadow: 2px 2px black;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
 }
-
 
 
 /*.classCustom .active a,*/
+
+
 /*.classCustom .active a:hover {*/
+
+
 /*    background: url('img/hot-air-balloon-clipart.png');*/
+
+
 /*    background-color:white;*/
+
+
 /*}*/
 
-
-
-
 #mycarousel {
-  
-  
     text-align: center;
-      vertical-align: middle;
-      display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
 }
 
-
-
 body {
-    background: linear-gradient(to right, rgba(240,255,255,.9), rgba(255,255,255,.5)), url("img/cloud.jpg");
-    background-size:cover;
+    background: linear-gradient(to right, rgba(240, 255, 255, .9), rgba(255, 255, 255, .5)), url("img/cloud.jpg");
+    background-size: cover;
 }
 
 #contact {
-    text-align:center;
+    text-align: center;
 }
 
-
-
-
-
-    @media only screen and (min-width: 200px) {
-
-      h2 {
-        
-     font-size:20px;
-     
- }
-  h1 {
-      font-size:27px;
-      
-  }
+@media only screen and (min-width: 200px) {
+    h2 {
+        font-size: 20px;
     }
-
-
-
-
-
-
-
-    @media only screen and (min-width: 570px) {
-      .carousel-caption { 
-       margin-bottom: 100px;
-      }
-      h2 {
-        
-     font-size:30px;
-     
- }
-  h1 {
-      font-size:40px;
-      
-  }
+    h1 {
+        font-size: 27px;
     }
+}
 
-
-
-    @media only screen and (min-width: 768px) {
-      .carousel-caption { 
-       margin-bottom: 170px;
-      }
-      h2 {
-        
-     font-size:40px;
-     
- }
-  h1 {
-      font-size:60px;
-      
-  }
+@media only screen and (min-width: 570px) {
+    .carousel-caption {
+        margin-bottom: 100px;
     }
-
-
-
-    @media only screen and (min-width: 992px) {
-      .carousel-caption { 
-       margin-bottom: 200px;
-      }
-      h2 {
-        
-     font-size:55px;
-     
- }
-  h1 {
-      font-size:80px;
-      
-  }
+    h2 {
+        font-size: 30px;
     }
-
-
-
-    @media only screen and (min-width: 1193px) {
-      .carousel-caption { 
-       margin-bottom: 550px;
-      }
-      h2 {
-        
-     font-size:55px;
-     
- }
-  h1 {
-      font-size:85px;
-      
-  }
+    h1 {
+        font-size: 40px;
     }
+}
 
+@media only screen and (min-width: 768px) {
+    .carousel-caption {
+        margin-bottom: 170px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+}
 
+@media only screen and (min-width: 992px) {
+    .carousel-caption {
+        margin-bottom: 200px;
+    }
+    h2 {
+        font-size: 55px;
+    }
+    h1 {
+        font-size: 80px;
+    }
+}
 
-
+@media only screen and (min-width: 1193px) {
+    .carousel-caption {
+        margin-bottom: 550px;
+    }
+    h2 {
+        font-size: 55px;
+    }
+    h1 {
+        font-size: 85px;
+    }
+}
 
 .testiCont {
-    background-color:lightblue;
-    box-shadow:2px 2px #888888;
-     border-radius: 15px/50px;;
-    margin-bottom:20px;
+    background-color: lightblue;
+    box-shadow: 2px 2px #888888;
+    border-radius: 15px/50px;
+    ;
+    margin-bottom: 20px;
     margin-right: 100px;
     padding: 20px 30px 20px 30px;
-   
 }
 
 #info {
-      border-radius: 15px/50px;
+    border-radius: 15px/50px;
     font-family: 'Righteous', cursive;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .nav-pills {
     background-color: black;
 }
+
 a {
-    color:white;
+    color: white;
 }
 
 #balloon {
-    float:left;
+    float: left;
 }
