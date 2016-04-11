@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,17 +18,26 @@
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="nav.css">
     <script src="script.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Inconsolata|Anton|Josefin+Sans|Pacifico|Quicksand|Dancing+Script|Righteous|Sigmar+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata|Anton|Josefin+Sans|Pacifico|Quicksand|Dancing+Script|Righteous|Sigmar+One' rel='stylesheet' type='text/css'>
+    <script>
+        $(function() {
+            $('.nav-pills').affix({
+                offset: {
+                    top: 100
+                }
+            });
+        });
+    </script>
     <style>
-
-h1 {
-  font-family: 'Sigmar One', cursive;
-}
-#info:hover {
-    background-color: black;
-    color:white;
-}
-  </style>
+        h1 {
+            font-family: 'Sigmar One', cursive;
+        }
+        
+        #info:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -36,14 +46,13 @@ h1 {
         <li class='active'><a href='info.html'>Info</a></li>
         <li><a href='testimonial.html'>Testimonials</a></li>
 
-        
-</ul>
- <img id="balloon" src="img/balloon.png" height="150" width="100">
-        
-  <div class="container">
-  <div class="row">
+    </ul>
+    <img id="balloon" src="img/balloon.png" height="150" width="100">
 
-        <h1><strong><u>All the information you'll need:</u></strong></h2>
+    <div class="container">
+        <div class="row">
+
+            <h1><strong><u>All the information you'll need:</u></strong></h2>
     
       <br>
       <br>

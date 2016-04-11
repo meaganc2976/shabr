@@ -20,26 +20,30 @@
   <script src="script.js">
   </script>
   <link href='https://fonts.googleapis.com/css?family=Inconsolata|Anton|Josefin+Sans|Pacifico|Quicksand|Dancing+Script|Righteous|Sigmar+One' rel='stylesheet' type='text/css'>
-    <style>
-
-h1 {
-  font-family: 'Sigmar One', cursive;
-}
-
-#dance {
-font-family: 'Pacifico', cursive;
-}
-    </style>
+  <style>
+    h1 {
+      font-family: 'Sigmar One', cursive;
+    }
+    
+    #dance {
+      font-family: 'Pacifico', cursive;
+    }
+    
+    .affix {
+      top: 20px;
+    }
+  </style>
 </head>
 
 <body>
+  <nav class="col-sm-3">
+    <ul class='nav nav-pills' data-spy="affix" data-offset-top="205">
+      <li class='active'><a href='index.html'>Home</a></li>
+      <li><a href='info.html'>Info</a></li>
+      <li><a href='testimonial.html'>Testimonials</a></li>
 
-  <ul class='nav nav-pills'>
-    <li class='active'><a href='index.html'>Home</a></li>
-    <li><a href='info.html'>Info</a></li>
-    <li><a href='testimonial.html'>Testimonials</a></li>
-
-  </ul>
+    </ul>
+  </nav>
 
   <!--Carousel-->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
